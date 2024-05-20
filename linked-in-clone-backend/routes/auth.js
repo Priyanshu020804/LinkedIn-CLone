@@ -66,3 +66,5 @@ router.post('/login' , async (req,res) => {
     delete userToreturn.password;
     return res.status(200).json(userToreturn);
 });
+
+module.exports = router;
